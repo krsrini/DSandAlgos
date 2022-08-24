@@ -1,6 +1,3 @@
-from turtle import right
-
-
 # Author           		: krsgit@yahoo.com 
 # Creation Date    		: Tue Aug 23 18:34:11 PDT 2022
 
