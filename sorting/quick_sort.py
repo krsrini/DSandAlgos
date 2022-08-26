@@ -1,6 +1,10 @@
 
-# Author           		: krsgit@yahoo.com 
-# Creation Date    		: Mon Aug 15 18:50:19 PDT 2022
+# Author           	        : krsgit@yahoo.com 
+# Creation Date    	        : Mon Aug 15 18:50:19 PDT 2022
+# Average Time complexity   : O(N log(N))
+# WORST TIME COMPLEXITY	    : O(n²) 
+# Space Complexity          : O(N)
+
 import random
 def quick_sort(arr):
     quick_sort_helper(arr, 0, len(arr)-1)
