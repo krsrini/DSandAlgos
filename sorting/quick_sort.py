@@ -4,6 +4,7 @@
 # Average Time complexity   : O(N log(N))
 # WORST TIME COMPLEXITY	    : O(n²) 
 # Space Complexity          : O(N)
+# Not a stable sorting algorithm
 
 import random
 def quick_sort(arr):
