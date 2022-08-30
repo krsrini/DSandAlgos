@@ -5,7 +5,9 @@
 # average and worst cases : O(n²) 
 # best case : O(n) 
 
-# The bubble sort has a space complexity of O(1). The number of swaps in bubble sort equals the number of inversion pairs in the given array. When the array elements are few and the array is nearly sorted, bubble sort is effective and efficient
+# The bubble sort has a space complexity of O(1). 
+# The number of swaps in bubble sort equals the number of inversion pairs in the given array. 
+# When the array elements are few and the array is nearly sorted, bubble sort is effective and efficient
 
 # stable sorting algorithm
 

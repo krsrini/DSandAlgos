@@ -1,12 +1,8 @@
 # Author           		: krsgit@yahoo.com 
 # Creation Date    		: Tue Aug 23 18:34:11 PDT 2022
-
 # Time complexity : O(n*Log n) 
-
 # The merge sort has a space complexity of O(n).
-
 # stable sorting algorithm 
-
 
 def merge_sort(arr):
     if len(arr) > 1:
@@ -38,7 +34,6 @@ def merge_sort(arr):
             k += 1
 
     return arr
-
 
 arr = [5, 8, 3, 9, 4, 1, 7]
 result = merge_sort(arr)

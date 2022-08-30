@@ -1,4 +1,3 @@
-
 # Author           	        : krsgit@yahoo.com 
 # Creation Date    	        : Mon Aug 15 18:50:19 PDT 2022
 # Average Time complexity   : O(N log(N))
@@ -38,10 +37,6 @@ def partition(arr, low, high):
     arr[low],arr[j]=arr[j],arr[low]
     return j
 
-
-#arr = [534, 246, 933, 127, 277, 321, 454, 565, 220]
-#arr = [-913743, 3241, 999999, 1243153, 0, 0, 999999999]
-#arr = [5, 3, 1, -10, -11, -100]
 arr = [5, 8, 3, 9, 4, 1, 7]
 result = quick_sort(arr)
 print(result)

@@ -1,12 +1,9 @@
 # Author           		: krsgit@yahoo.com 
 # Creation Date    		: Tue Aug 23 17:06:23 PDT 2022
-
 # Time complexity 
 # average and worst cases : O(n²) 
 # best case : O(n) 
-
 # The insertion sort has a space complexity of O(1).
-
 # stable sorting algorithm 
 
 def insert_sort(arr):

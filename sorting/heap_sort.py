@@ -1,11 +1,8 @@
 # Author           		: krsgit@yahoo.com 
 # Creation Date    		: Tue Aug 30 12:22:04 PDT 2022
-
 # Time Complexity Of Selection Sort : O(n log n)
 # The space complexity of Selection Sort is O(1). 
-
 # Not a stable sorting algorithm
-
 
 def heapify(arr,arrLen,i):
     largest = i
@@ -15,7 +12,7 @@ def heapify(arr,arrLen,i):
     if left < arrLen and arr[i] < arr[left]:
         largest = left
     
-    if  right < arrLen and arr[largest] < arr[right]:
+    if right < arrLen and arr[largest] < arr[right]:
         largest = right
         
     if largest != i:
