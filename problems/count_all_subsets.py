@@ -19,4 +19,5 @@ def count_all_subsets(n):
 
     return subsetCount
 
+n = 5
 print(count_all_subsets(n))
